@@ -1,0 +1,115 @@
+* {margin:0; padding:0; box-sizing:border-box; }
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto|Stardos+Stencil&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.container {
+	width: 100%;
+ 	max-width: 1024px;
+ 	margin:0 auto;}
+
+header {
+	padding: 2em;
+}
+nav {
+	text-align: right;
+}
+
+#heroimage {
+ 	color: white;
+ 	text-align: left;
+ 	background-image: url(https://www.the-digital-picture.com/Images/Pics/2014/2014-09-26_09-03-49g.jpg);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+}
+
+#destinationshero {
+ 	color: black;
+ 	text-align: left;
+ 	background-image: url(https://images.unsplash.com/photo-1461183479101-6c14cd5299c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+}
+
+#abouthero {
+ 	color: white;
+ 	text-align: left;
+ 	background-image: url(file:///Users/kgiblin/Desktop/karlatta5.github.io/unit_5/images/cb-aspen.png);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+}
+
+#header {
+font-family: 'Stardos Stencil', serif;
+	font-size: 55px;
+	line-height: 1em;
+	position: absolute; 
+	top:50%; 
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+#intro {
+font-family: 'Stardos Stencil';
+	font-size: 30px;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 2em;
+}
+
+}
+h3 {
+	font-size: 20px;
+	line-height: 1em;
+	margin: 1em;
+	
+
+}
+p {  
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 2em;
+
+}
+.cityguide {
+	display:block;
+}
+.cityguide figure {
+	width:50%;
+	float:left;
+}
+.cityguide figcaption{
+	width:50%;
+	float:left;
+}
+
+#blockquote {
+font-family: 'Stardos Stencil', cursive;
+	font-size: 40px;
+	line-height: 1.5em;
+	text-align: center;
+	background-color: gray;
+	color: white;
+
+}
+
+footer {
+text-align: center;
+  padding: 2em;
+}
+
+
+
+
+
