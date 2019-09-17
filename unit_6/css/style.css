@@ -1,23 +1,46 @@
-* {margin:0; padding:0; box-sizing:border-box; }
 @import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto|Stardos+Stencil&display=swap');
 body{
 	font-family: 'Roboto', sans-serif;
 }
-.clearfix:after{
+
+* {
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+.clearfix:after {
 	content:"";
 	display:block;
 	clear:both;
+	visibility: hidden;
+	height:0;
+	font-size: 0;
 }
 .container {
 	width: 100%;
  	max-width: 1024px;
- 	margin:0 auto;}
+ 	margin:0 auto;
+ }
 
 header {
+	background-color: #fff;
 	padding: 2em;
+	text-align: left;
 }
-nav {
-	text-align: right;
+
+nav a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	float:right;
+	font-size: 18px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+
 }
 
 #heroimage {
@@ -30,28 +53,8 @@ nav {
   	position: relative;
 }
 
-#destinationshero {
- 	color: white;
- 	text-align: left;
- 	background-image: url(file:///Users/kgiblin/Desktop/karlatta5.github.io/unit_5/images/evergreen.jpg);
-  	background-repeat: no-repeat;
-  	height: 56.25vw;
-  	background-size: cover;
-  	position: relative;
-}
-
-#abouthero {
- 	color: white;
- 	text-align: left;
- 	background-image: url(file:///Users/kgiblin/Desktop/karlatta5.github.io/unit_5/images/cb-aspen.png);
-  	background-repeat: no-repeat;
-  	height: 56.25vw;
-  	background-size: cover;
-  	position: relative;
-}
-
 #header {
-font-family: 'Stardos Stencil', serif;
+	font-family: 'Stardos Stencil', serif;
 	font-size: 55px;
 	line-height: 1em;
 	position: absolute; 
@@ -61,21 +64,30 @@ font-family: 'Stardos Stencil', serif;
 }
 
 #intro {
-font-family: 'Stardos Stencil';
+	font-family: 'Stardos Stencil';
 	font-size: 30px;
 	line-height: 1.5em;
 	text-align: center;
-	margin: 2em;
+	margin: 1em;
+	padding: 10px;
+	border-bottom: 4px solid black;
 }
 
-}
 h3 {
 	font-size: 20px;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 1em;
+	padding: 20px;
+}
+
+h4 {
+	font-size: 18px;
 	line-height: 1em;
 	margin: 1em;
-	
 
 }
+
 p {  
 	font-size: 15px;
 	line-height: 1.5em;
@@ -88,28 +100,122 @@ p {
 .cityguide figure {
 	width:50%;
 	float:left;
+	padding: 2em;
 }
 .cityguide figcaption{
 	width:50%;
 	float:left;
+	padding: 2em;
 }
 
 #blockquote {
-font-family: 'Stardos Stencil', cursive;
+	font-family: 'Stardos Stencil', cursive;
 	font-size: 40px;
 	line-height: 1.5em;
 	text-align: center;
-	background-color: gray;
+	background-color: #164959;
 	color: white;
+	padding: 1em;
 
 }
 
 footer {
-text-align: center;
-  padding: 2em;
+	background-color: #f1f1f1;
+	text-align: center;
+ 	padding: 2em;
+ 	clear:both;
 }
 
 
+#destinationshero {
+ 	color: white;
+ 	text-align: left;
+ 	background-image: url(../images/evergreen.jpg);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+ }
+
+.seasons {
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+}
+
+#winterimage {
+	float: right;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+	margin: 1em;
+}
+
+#springimage {
+	float: right;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+	margin: 1em;
+}
 
 
+#summerimage {
+	float: right;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+	margin: 1em;
+}
 
+#fallimage {
+	float: right;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+	margin: 1em;
+}
+
+
+#abouthero {
+ 	color: white;
+ 	text-align: left;
+ 	background-image: url(../images/cb-aspen.png);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+ }
+
+#about {
+  	font-size: 12px;
+  	line-height: 2em;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+	margin: 1em;
+ }
+
+#aboutimage {
+	float: right;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+	margin:1em;
+}
+
+#traveltipshero {
+ 	color: white;
+ 	text-align: left;
+ 	background-image: url(../images/bluelake.jpg);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+ }
+
+ul {  
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 0em 4em 1em;
+}
