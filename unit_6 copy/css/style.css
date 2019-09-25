@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto|Stardos+Stencil&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+* {
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+	visibility: hidden;
+	height:0;
+	font-size: 0;
+}
+.container {
+	width: 100%;
+ 	max-width: 1024px;
+ 	margin:0 auto;
+ }
+.container-small {
+	max-width: 768px;
+}
+header {
+	background-color: #fff;
+	padding: 2em;
+}
+
+header .container {
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 18px;
+}
+
+
+a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.hero {
+ 	color: white;
+ 	text-align: center;
+ 	background-image: url(https://www.the-digital-picture.com/Images/Pics/2014/2014-09-26_09-03-49g.jpg);
+  	background-repeat: no-repeat;
+  	height: 56.25vw;
+  	background-size: cover;
+  	position: relative;
+}
+#destinationshero {
+ 	background-image: url(../images/evergreen.jpg);
+ }
+
+#abouthero {
+ 	background-image: url(../images/cb-aspen.png);
+ }
+ #traveltipshero {
+ 	background-image: url(../images/bluelake.jpg);
+ }
+
+#header {
+	font-family: 'Stardos Stencil', serif;
+	font-size: 55px;
+	line-height: 1em;
+	position: absolute; 
+	top:50%; 
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+}
+
+main {
+	padding:1em 0;
+}
+
+#intro {
+	font-family: 'Stardos Stencil';
+	font-size: 30px;
+	line-height: 1.5em;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 4px solid black;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 1.5em;
+	text-align: center;
+	margin: 1em;
+	padding: 20px;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 1em;
+	margin: 1em;
+
+}
+
+p {  
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 2em;
+
+}
+.cityguide {
+	display:block;
+	padding:1em 0;
+}
+.cityguide:last-child{
+	padding: 1em 0 0 0;
+}
+.cityguide figure {
+	width:50%;
+	float:left;
+	padding: 0 2em;
+}
+.cityguide figcaption{
+	width:50%;
+	float:left;
+	padding: 0 2em;
+}
+
+#blockquote {
+	font-family: 'Stardos Stencil', cursive;
+	font-size: 40px;
+	line-height: 1.5em;
+	text-align: center;
+	background-color: #164959;
+	color: white;
+	padding: 1em;
+
+}
+
+footer {
+	background-color: #f1f1f1;
+	text-align: center;
+ 	padding: 2em;
+ 	clear:both;
+}
+
+/* destinations page */
+
+.destionations {
+	display: flex;
+}
+.destionations:nth-child(even){
+	flex-direction: row-reverse;
+}
+.destionations .container {
+	width: 50%;
+	padding: 2%;
+}
+
+
+#about {
+  	font-size: 12px;
+  	line-height: 2em;
+	width: 50%;
+	padding: 2%;
+	float: left;
+ }
+
+#aboutimage {
+	float: right;
+	width: 50%;
+	padding: 2%;
+}
+
+
+
+ul {  
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 0em 4em 1em;
+}
