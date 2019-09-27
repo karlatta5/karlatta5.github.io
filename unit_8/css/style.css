@@ -166,6 +166,12 @@ footer {
 	padding: 2%;
 }
 
+.places { 
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em
+	font-weight:bold;
+}
 
 #about {
   	font-size: 12px;
