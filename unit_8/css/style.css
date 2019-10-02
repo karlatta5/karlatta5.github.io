@@ -42,7 +42,7 @@ nav a {
 	color: black;
 	text-decoration: none;
 	padding: 10px;
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 
@@ -50,6 +50,10 @@ a {
 	color: black;
 	text-decoration: none;
 
+}
+img { 
+	display:block;
+	width: 100%; 
 }
 
 .hero {
@@ -74,7 +78,7 @@ a {
 
 #header {
 	font-family: 'Stardos Stencil', serif;
-	font-size: 55px;
+	font-size: 3.4em;
 	line-height: 1em;
 	position: absolute; 
 	top:50%; 
@@ -89,7 +93,7 @@ main {
 
 #intro {
 	font-family: 'Stardos Stencil';
-	font-size: 30px;
+	font-size: 1.875em;
 	line-height: 1.5em;
 	text-align: center;
 	padding: 10px;
@@ -97,7 +101,7 @@ main {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.250em;
 	line-height: 1.5em;
 	text-align: center;
 	margin: 1em;
@@ -105,16 +109,17 @@ h3 {
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 1.125em;
 	line-height: 1em;
-	margin: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
 
 }
 
 p {  
-	font-size: 15px;
+	font-size: .938em;
 	line-height: 1.5em;
-	margin: 2em;
+	margin-bottom: 2em;
 
 }
 .cityguide {
@@ -137,7 +142,7 @@ p {
 
 #blockquote {
 	font-family: 'Stardos Stencil', cursive;
-	font-size: 40px;
+	font-size: 2.500em;
 	line-height: 1.5em;
 	text-align: center;
 	background-color: #164959;
@@ -153,6 +158,10 @@ footer {
  	clear:both;
 }
 
+footer a {
+	display:inline-block;
+	width: 30px;
+}
 /* destinations page */
 
 .destionations {
@@ -167,14 +176,14 @@ footer {
 }
 
 .places { 
-	font-size: 18px;
+	font-size: 1.125em;
 	line-height: 1.5em;
 	margin: 2em
 	font-weight:bold;
 }
 
 #about {
-  	font-size: 12px;
+  	font-size: .750em;
   	line-height: 2em;
 	width: 50%;
 	padding: 2%;
@@ -188,9 +197,73 @@ footer {
 }
 
 
-
 ul {  
-	font-size: 15px;
+	font-size: .938em;
 	line-height: 1.5em;
 	margin: 0em 4em 1em;
 }
+
+@media only screen and (max-width: 1000px) {
+	#about {
+		float: none;	
+		width: 100%;
+		padding: 1%;
+	}
+
+	#aboutimage {
+		float: none;
+		width: 100%;
+		padding: 1%;
+	}
+	.destionations {
+		flex-direction: column;
+	}
+	.destionations .container {
+		width: 100%;
+	}
+.destionations:nth-child(even){
+	flex-direction: column;
+}
+.cityguide figure {
+	width:100%;
+	float:none;
+	max-width: 568px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cityguide figcaption{
+	width:100%;
+	float: none;
+	max-width: 568px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav {
+	display:none;
+}
+
+input:checked ~ nav {
+	display:block;
+}
+header .container {
+	position:relative;
+}
+header button {
+	position:absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+input {
+	position:absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	opacity: 0;
+	width: 100px;
+	height: 100px;
+
+}
+}
+
+
