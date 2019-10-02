@@ -23,6 +23,7 @@ body{
  }
 .container-small {
 	max-width: 768px;
+	padding-top: 2em;
 }
 header {
 	background-color: #fff;
@@ -44,7 +45,6 @@ nav a {
 	padding: 10px;
 	font-size: 1.125em;
 }
-
 
 a {
 	color: black;
@@ -137,7 +137,7 @@ p {
 .cityguide figcaption{
 	width:50%;
 	float:left;
-	padding: 0 2em;
+	padding: 0 2em 0 .10em;
 }
 
 #blockquote {
@@ -183,7 +183,7 @@ footer a {
 }
 
 #about {
-  	font-size: .750em;
+  	font-size: .938em;
   	line-height: 2em;
 	width: 50%;
 	padding: 2%;
@@ -203,22 +203,22 @@ ul {
 	margin: 0em 4em 1em;
 }
 
-@media only screen and (max-width: 1000px) {
-	#about {
+@media only screen and (max-width: 850px) {
+#about {
 		float: none;	
 		width: 100%;
 		padding: 1%;
 	}
 
-	#aboutimage {
+#aboutimage {
 		float: none;
 		width: 100%;
 		padding: 1%;
 	}
-	.destionations {
+.destionations {
 		flex-direction: column;
 	}
-	.destionations .container {
+.destionations .container {
 		width: 100%;
 	}
 .destionations:nth-child(even){
@@ -263,6 +263,10 @@ input {
 	width: 100px;
 	height: 100px;
 
+}
+.container-small {
+	padding-right: 1%;
+	padding-left: 1%;
 }
 }
 
