@@ -103,9 +103,8 @@ main {
 h3 {
 	font-size: 1.250em;
 	line-height: 1.5em;
-	text-align: center;
-	margin: 1em;
-	padding: 20px;
+	text-align: left;
+
 }
 
 h4 {
@@ -262,8 +261,6 @@ input {
 	opacity: 0;
 	width: 100px;
 	height: 100px;
-	display: flex;
-	flex: column;
 
 }
 .container-small {
