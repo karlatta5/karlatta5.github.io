@@ -171,13 +171,13 @@ footer a {
 }
 /* destinations page */
 
-.destionations {
+.destinations {
 	display: flex;
 }
-.destionations:nth-child(even){
+.destinations:nth-child(even){
 	flex-direction: row-reverse;
 }
-.destionations .container {
+.destinations .container {
 	width: 50%;
 	padding: 2%;
 }
@@ -235,10 +235,10 @@ ul {
 .destionations {
 		flex-direction: column;
 	}
-.destionations .container {
+.destinations .container {
 		width: 100%;
 	}
-.destionations:nth-child(even){
+.destinations:nth-child(even){
 	flex-direction: column;
 }
 .cityguide figure {
@@ -254,7 +254,26 @@ ul {
 	max-width: 568px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 2em;
+
 }
+
+
+h4 {
+	font-size: 1.125em;
+	line-height: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+
+}
+
+p {  
+	font-size: .938em;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+
+}
+
 nav {
 	display:none;
 }
