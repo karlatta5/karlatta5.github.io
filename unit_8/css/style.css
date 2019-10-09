@@ -235,6 +235,7 @@ ul {
 .destinations {
 		flex-direction: column;
 	}
+	
 .destinations .container {
 		width: 100%;
 	}
